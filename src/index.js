@@ -28,8 +28,8 @@ function App() {
 
 function Avatar(props) {
   return (
-    <div className="avatar">
-      <img src={props.imageName} alt={props.imageName} />
+    <div>
+      <img src={props.imageName} alt={props.imageName} className="avatar" />
     </div>
   );
 }
